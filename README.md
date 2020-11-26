@@ -10,12 +10,12 @@
 ### *Option 2 (Command line):*
 * Guide: https://bit.ly/33g92jK
 ### *Option 3 (Other ways):*
-* Google it, there's other ways (Github desktop app, etc).
+* Google it, there’s other ways (Github desktop app, etc).
 ---
 ## **Key for naming throughout this README**
-* `{name}` = (alex, chris, or john)
+* `{name}` = 'alex', 'chris', or 'john'
 * `{number}` = the number of the project. 1 = first project, 2 = second, etc.
-* `{project-name}` = the name of the project, e.g. "dartboard"
+* `{project-name}` = the name of the project, e.g. 'dartboard'
 ---
 ## **Recommended folder structure**
 * `{name}`/
@@ -30,7 +30,7 @@
   * ***Sourcetree***: Select "Branch" and name the branch: `{name}`/c`{number}`_`{project-name}`
   * ***Command line***: git checkout -b `{name}`/c`{number}`_`{project-name}`
 * Commit as much as you want to your branch
-* When you're done with your challenge, merge your branch back into master.
+* When you’re done with your challenge, merge your branch back into master.
 ---
 ## **Recommended IDEs**
 * Windows:
