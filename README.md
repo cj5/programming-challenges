@@ -9,6 +9,8 @@
 * This will create your project directory, linked to Git, on your computer where you specified. Go to the project and open it in the IDE / text editor of your choice (See below for recommendations on IDEs).
 ### *Option 2 (Command line):*
 * Guide: https://bit.ly/33g92jK
+### *Option 3 (Other ways):*
+* Google it, there's other ways (Github desktop app, etc).
 ---
 ## **Recommended folder structure**
 * your-name (e.g. Alex, Chris, John)/
