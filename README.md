@@ -27,7 +27,7 @@
 ## **Recommended commit strategy**
 * Create a new branch for each new challenge
   * Sourcetree: Select "Branch" name the branch (e.g. but adapt for the situation): chris/c2_new-challenge
-  * Command line: git checkout -b whatever-you-name-your-branch
+  * Command line: git checkout -b chris/c2_new-challenge
 * Commit as much as you want
 * When you're done with your challenge, merge your branch back into master.
 ---
