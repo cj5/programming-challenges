@@ -1,4 +1,5 @@
 # Programming Challenges
+A project where we can work on programming challenges we decide to take on while tracking eachother's progress.
 ## **Cloning the repository**
 ### *Option 1 (Sourcetree):*
 * Download the Sourcetree desktop app: https://www.sourcetreeapp.com
@@ -10,28 +11,27 @@
 ### *Option 2 (Command line):*
 * Guide: https://bit.ly/33g92jK
 ### *Option 3 (Other ways):*
-* Google it, there’s other ways (Github desktop app, etc).
+* Google it, there's other ways (Github desktop app, etc).
 ---
 ## **Key for naming throughout this README**
-* `{name}` = 'alex', 'chris', or 'john'
-* `{number}` = the number of the project. 1 = first project, 2 = second, etc.
+* `{your-name}` = 'alex', 'chris', or 'john'
+* `{project-number}` = the number of the project. 1 = first project, 2 = second, etc.
 * `{project-name}` = the name of the project, e.g. 'dartboard'
 ---
 ## **Recommended folder structure**
-* `{name}`/
-  * c`{number}`_`{project-name}`/...
+* `{your-name}`/
+  * c`{project-number}`_`{project-name}`/...
     * c++/...
     * python/...
     * .../...
   * .../...
-* .../...
 ---
 ## **Recommended commit strategy**
 * Create a new branch for each new challenge:
-  * ***Sourcetree***: Select "Branch" and name the branch: `{name}`/c`{number}`_`{project-name}`
-  * ***Command line***: git checkout -b `{name}`/c`{number}`_`{project-name}`
+  * ***Sourcetree***: Select "Branch" and name the branch: `{your-name}`/c`{project-number}`_`{project-name}`
+  * ***Command line***: git checkout -b `{your-name}`/c`{project-number}`_`{project-name}`
 * Commit as much as you want to your branch
-* When you’re done with your challenge, merge your branch back into master.
+* When you're done with your challenge, merge your branch back into master.
 ---
 ## **Recommended IDEs**
 * Windows:
