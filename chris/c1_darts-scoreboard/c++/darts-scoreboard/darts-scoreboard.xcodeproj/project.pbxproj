@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20F4565E256F38CF00C66D74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20F4565D256F38CF00C66D74 /* main.cpp */; };
+		201267CF25835BC500B99993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 201267CE25835BC500B99993 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		20F45658256F38CF00C66D74 /* CopyFiles */ = {
+		201267C925835BC500B99993 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		20F4565A256F38CF00C66D74 /* dartboard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dartboard; sourceTree = BUILT_PRODUCTS_DIR; };
-		20F4565D256F38CF00C66D74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		201267CB25835BC500B99993 /* darts-scoreboard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "darts-scoreboard"; sourceTree = BUILT_PRODUCTS_DIR; };
+		201267CE25835BC500B99993 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20F45657256F38CF00C66D74 /* Frameworks */ = {
+		201267C825835BC500B99993 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,64 +38,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20F45651256F38CF00C66D74 = {
+		201267C225835BC500B99993 = {
 			isa = PBXGroup;
 			children = (
-				20F4565C256F38CF00C66D74 /* dartboard */,
-				20F4565B256F38CF00C66D74 /* Products */,
+				201267CD25835BC500B99993 /* darts-scoreboard */,
+				201267CC25835BC500B99993 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		20F4565B256F38CF00C66D74 /* Products */ = {
+		201267CC25835BC500B99993 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20F4565A256F38CF00C66D74 /* dartboard */,
+				201267CB25835BC500B99993 /* darts-scoreboard */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20F4565C256F38CF00C66D74 /* dartboard */ = {
+		201267CD25835BC500B99993 /* darts-scoreboard */ = {
 			isa = PBXGroup;
 			children = (
-				20F4565D256F38CF00C66D74 /* main.cpp */,
+				201267CE25835BC500B99993 /* main.cpp */,
 			);
-			path = dartboard;
+			path = "darts-scoreboard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20F45659256F38CF00C66D74 /* dartboard */ = {
+		201267CA25835BC500B99993 /* darts-scoreboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20F45661256F38CF00C66D74 /* Build configuration list for PBXNativeTarget "dartboard" */;
+			buildConfigurationList = 201267D225835BC500B99993 /* Build configuration list for PBXNativeTarget "darts-scoreboard" */;
 			buildPhases = (
-				20F45656256F38CF00C66D74 /* Sources */,
-				20F45657256F38CF00C66D74 /* Frameworks */,
-				20F45658256F38CF00C66D74 /* CopyFiles */,
+				201267C725835BC500B99993 /* Sources */,
+				201267C825835BC500B99993 /* Frameworks */,
+				201267C925835BC500B99993 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = dartboard;
-			productName = dartboard;
-			productReference = 20F4565A256F38CF00C66D74 /* dartboard */;
+			name = "darts-scoreboard";
+			productName = "darts-scoreboard";
+			productReference = 201267CB25835BC500B99993 /* darts-scoreboard */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		20F45652256F38CF00C66D74 /* Project object */ = {
+		201267C325835BC500B99993 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					20F45659256F38CF00C66D74 = {
+					201267CA25835BC500B99993 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 20F45655256F38CF00C66D74 /* Build configuration list for PBXProject "dartboard" */;
+			buildConfigurationList = 201267C625835BC500B99993 /* Build configuration list for PBXProject "darts-scoreboard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,29 +103,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 20F45651256F38CF00C66D74;
-			productRefGroup = 20F4565B256F38CF00C66D74 /* Products */;
+			mainGroup = 201267C225835BC500B99993;
+			productRefGroup = 201267CC25835BC500B99993 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20F45659256F38CF00C66D74 /* dartboard */,
+				201267CA25835BC500B99993 /* darts-scoreboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20F45656256F38CF00C66D74 /* Sources */ = {
+		201267C725835BC500B99993 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20F4565E256F38CF00C66D74 /* main.cpp in Sources */,
+				201267CF25835BC500B99993 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		20F4565F256F38CF00C66D74 /* Debug */ = {
+		201267D025835BC500B99993 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		20F45660256F38CF00C66D74 /* Release */ = {
+		201267D125835BC500B99993 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Release;
 		};
-		20F45662256F38CF00C66D74 /* Debug */ = {
+		201267D325835BC500B99993 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -246,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		20F45663256F38CF00C66D74 /* Release */ = {
+		201267D425835BC500B99993 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -259,25 +259,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20F45655256F38CF00C66D74 /* Build configuration list for PBXProject "dartboard" */ = {
+		201267C625835BC500B99993 /* Build configuration list for PBXProject "darts-scoreboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20F4565F256F38CF00C66D74 /* Debug */,
-				20F45660256F38CF00C66D74 /* Release */,
+				201267D025835BC500B99993 /* Debug */,
+				201267D125835BC500B99993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20F45661256F38CF00C66D74 /* Build configuration list for PBXNativeTarget "dartboard" */ = {
+		201267D225835BC500B99993 /* Build configuration list for PBXNativeTarget "darts-scoreboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20F45662256F38CF00C66D74 /* Debug */,
-				20F45663256F38CF00C66D74 /* Release */,
+				201267D325835BC500B99993 /* Debug */,
+				201267D425835BC500B99993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 20F45652256F38CF00C66D74 /* Project object */;
+	rootObject = 201267C325835BC500B99993 /* Project object */;
 }
